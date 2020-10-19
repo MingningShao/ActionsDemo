@@ -1,2 +1,2 @@
-# OpenSouceProjectCICD
-Demo project for CI/CD
+# Actions Demo
+Demo project for Github Actions CI/CD
