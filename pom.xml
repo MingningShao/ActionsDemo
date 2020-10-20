@@ -54,7 +54,7 @@
 		<repository>
 			<id>github</id>
 			<name>demo actions</name>
-			<url>https://maven.pkg.github.com/shaomingning/demoactions</url>
+			<url>https://maven.pkg.github.com/shaomingning/ActionsDemo</url>
 		</repository>
 	</distributionManagement>
 
