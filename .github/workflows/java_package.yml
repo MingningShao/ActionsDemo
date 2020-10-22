@@ -32,6 +32,14 @@ jobs:
       - name: maven verify
         run: mvn -B clean verify -Pintegration-test
         
+  lint-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: Run helm docs
+        run: .github/helm.docs.sh
+        
   artifact:
    name: publish github packages
    runs-on: ubuntu-latest
