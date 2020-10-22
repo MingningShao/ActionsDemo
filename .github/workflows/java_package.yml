@@ -38,7 +38,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
       - name: Run helm docs
-        run: sudo .github/helm.docs.sh
+        run: sudo .github/helm-docs.sh
         
   artifact:
    name: publish github packages
