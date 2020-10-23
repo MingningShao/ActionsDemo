@@ -1,0 +1,6 @@
+demochart:
+  name: myapp
+  version: v1
+image:
+  repository: shaomingning/demochart
+  tag: latest
