@@ -3,6 +3,16 @@ entries:
   demochart:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2020-10-23T09:45:28.773189665Z"
+    description: A Helm chart for Kubernetes
+    digest: d5dab31f339775d2e3f78d648448df5888869f8bc914c6a2eda2fa18a2bd3de4
+    name: demochart
+    type: application
+    urls:
+    - https://github.com/MingningShao/ActionsDemo/releases/download/demochart-2.3.8/demochart-2.3.8.tgz
+    version: 2.3.8
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2020-10-23T01:17:02.718005845Z"
     description: A Helm chart for Kubernetes
     digest: ef8b5a004f68e8f083ddf063abcab2b23e7da781d33be31000162f5c09b90ac5
